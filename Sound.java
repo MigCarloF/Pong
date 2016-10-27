@@ -10,6 +10,8 @@ public class Sound {
 	public static final AudioClip BACK1 = Applet.newAudioClip(Sound.class.getResource("back1.wav")); 
 	public static final AudioClip BACK2 = Applet.newAudioClip(Sound.class.getResource("back2.wav")); 
 	public static final AudioClip BACK3 = Applet.newAudioClip(Sound.class.getResource("back3.wav")); 
+	public static final AudioClip POWERUP = Applet.newAudioClip(Sound.class.getResource("powerup.wav")); 
+	public static final AudioClip POWERGET = Applet.newAudioClip(Sound.class.getResource("powerget.wav")); 
 	//returns an AudioClip depending on n which is randomly generated
 	public static AudioClip impact(){
 		int n = (new Random()).nextInt(5) + 1;
