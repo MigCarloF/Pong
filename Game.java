@@ -9,6 +9,12 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import java.util.Random;
+
+/*
+ * Made by Miguel Carlo Fernandez
+ * October 27, 2016
+ */
+
 @SuppressWarnings("serial")
 public class Game extends JPanel {
 	public int p1score = 0;
